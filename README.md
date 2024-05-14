@@ -1,18 +1,21 @@
-# Datcord
+# A Discord Clone, build with Phoenix LiveView
 
-To start your Phoenix server:
+This is a simple Discord clone, build with Phoenix LiveView. It is a work in progress, and is being built as a learning project.  
 
-  * Run `mix setup` to install and setup dependencies
-  * Start Phoenix endpoint with `mix phx.server` or inside IEx with `iex -S mix phx.server`
+## Features
 
-Now you can visit [`localhost:4000`](http://localhost:4000) from your browser.
+- [ ] User authentication
+- [ ] User registration
+- [ ] User profile
+- [ ] Create a server
+- [ ] Create a channel
+- [ ] Join a server
+- [ ] Join a channel
+- [ ] Send messages
+- [ ] Receive messages
+- [ ] Real-time updates
+- [ ] Notifications
+- [ ] User roles
+- [ ] User permissions
 
-Ready to run in production? Please [check our deployment guides](https://hexdocs.pm/phoenix/deployment.html).
 
-## Learn more
-
-  * Official website: https://www.phoenixframework.org/
-  * Guides: https://hexdocs.pm/phoenix/overview.html
-  * Docs: https://hexdocs.pm/phoenix
-  * Forum: https://elixirforum.com/c/phoenix-forum
-  * Source: https://github.com/phoenixframework/phoenix
