@@ -27,7 +27,6 @@ defmodule DatcordWeb.Router do
   # scope "/api", DatcordWeb do
   #   pipe_through :api
   # end
-
   # Enable LiveDashboard and Swoosh mailbox preview in development
   if Application.compile_env(:datcord, :dev_routes) do
     # If you want to use the LiveDashboard in production, you should put

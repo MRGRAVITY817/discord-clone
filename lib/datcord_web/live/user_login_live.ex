@@ -1,9 +1,13 @@
 defmodule DatcordWeb.UserLoginLive do
   use DatcordWeb, :live_view
+  import DatcordWeb.CustomComponents
 
   def render(assigns) do
     ~H"""
     <div class="mx-auto max-w-sm">
+      <div class="mb-12">
+        <.back_button navigate={~p"/"} />
+      </div>
       <.header class="text-center">
         Log in to account
         <:subtitle>

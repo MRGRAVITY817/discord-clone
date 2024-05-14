@@ -1,5 +1,6 @@
 defmodule DatcordWeb.UserRegistrationLive do
   use DatcordWeb, :live_view
+  import DatcordWeb.CustomComponents
 
   alias Datcord.Accounts
   alias Datcord.Accounts.User
@@ -7,6 +8,9 @@ defmodule DatcordWeb.UserRegistrationLive do
   def render(assigns) do
     ~H"""
     <div class="mx-auto max-w-sm">
+      <div class="mb-12">
+        <.back_button navigate={~p"/"} />
+      </div>
       <.header class="text-center">
         Register for an account
         <:subtitle>
