@@ -1,28 +1,12 @@
 <.flash_group flash={@flash} />
 
-<div class="p-12 pt-32">
-  <h1 class="text-4xl font-black text-center text-indigo-500">Datcord</h1>
-  <div class="pt-20 flex justify-center">
-    <img src={~p"/images/home_screen_image.svg"} class="h-72" />
-  </div>
-  <div class="pt-8">
-    <h2 class="text-2xl font-bold text-center">
-      Your place to talk
-    </h2>
-    <p class="text-center text-lg text-gray-500 pt-4">
-      Join over 100 million who use Datcord to talk, chat, and hang out with friends.
+<div class="w-screen h-screen bg-brand flex justify-center items-center">
+  <div class="bg-gray-700 p-12 w-[800px] h-[600px] rounded-md text-white flex flex-col items-center justify-start">
+    <h1 class="font-bold text-3xl">
+      Welcome back!
+    </h1>
+    <p class="text-gray-300 pt-6 text-lg">
+      We're so excited to see you again!
     </p>
-  </div>
-  <div class="pt-12 flex flex-col gap-y-4">
-    <button class="bg-indigo-500 text-white w-full py-3 rounded-md">
-      <.link href={~p"/users/register"} class="font-semibold">
-        Register
-      </.link>
-    </button>
-    <button class="bg-slate-500 text-white w-full py-3 rounded-md">
-      <.link href={~p"/users/log_in"} class="font-semibold">
-        Log In
-      </.link>
-    </button>
   </div>
 </div>
